@@ -17,3 +17,6 @@ def multiply(n):
     result = n * (5 ** num_digits)
     
     return result
+
+def multiply(n):
+    return n * 5 ** len(str(abs(n)))
